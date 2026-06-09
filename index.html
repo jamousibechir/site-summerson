@@ -1,0 +1,816 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumerson — Cabinet d'Avocats Fiscalistes · Fiscalité Internationale</title>
+  <meta name="description" content="Sumerson est un cabinet boutique d'avocats fiscalistes dédié exclusivement à la fiscalité internationale et domestique. Paris · New York · Londres et 13 centres financiers mondiaux." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ─── Navigation ─────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#home" class="logo">Sumer<span>son</span></a>
+      <ul class="nav-links">
+        <li>
+          <a href="#cabinet">Le Cabinet ▾</a>
+          <div class="dropdown">
+            <a href="#cabinet">Le Cabinet</a>
+            <a href="#pourquoi">Pourquoi Sumerson</a>
+            <a href="#international">Sumerson à l'International</a>
+            <a href="#nicolas">Nicolas Duboille</a>
+          </div>
+        </li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#actualites">Actualités</a></li>
+        <li><a href="#recrutement">Recrutement</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="nav-lang">
+          <button class="active" onclick="setLang('fr',this)">FR</button>
+          <button onclick="setLang('en',this)">EN</button>
+        </div>
+        <a href="#contact" class="btn btn-gold" style="padding:10px 20px;font-size:11px;">Espace Client</a>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="toggleMenu()">✕</button>
+  <a href="#cabinet" onclick="toggleMenu()">Le Cabinet</a>
+  <a href="#pourquoi" onclick="toggleMenu()">Pourquoi Sumerson</a>
+  <a href="#international" onclick="toggleMenu()">International</a>
+  <a href="#nicolas" onclick="toggleMenu()">Nicolas Duboille</a>
+  <a href="#expertise" onclick="toggleMenu()">Expertise</a>
+  <a href="#actualites" onclick="toggleMenu()">Actualités</a>
+  <a href="#recrutement" onclick="toggleMenu()">Recrutement</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- ─── Hero ────────────────────────────────────────────────────────── -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Cabinet d'avocats · Fiscalité internationale</div>
+      <h1 class="hero-title">
+        Un cabinet <em>niche</em><br/>en fiscalité<br/>internationale
+      </h1>
+      <p class="hero-sub">
+        Sumerson est un cabinet boutique d'avocats fiscalistes, fondé en 2019, délivrant exclusivement une assistance dans le domaine de la fiscalité. Une véritable alternative aux grands cabinets multi-services et aux cabinets d'expertise comptable.
+      </p>
+      <div class="hero-ctas">
+        <a href="#expertise" class="btn btn-gold">
+          Notre expertise
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline-white">Prendre contact</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">2019</div>
+          <div class="hero-stat-label">Fondation<br/>du cabinet</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">13</div>
+          <div class="hero-stat-label">Centres<br/>financiers</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">20+</div>
+          <div class="hero-stat-label">Années<br/>d'expérience</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">2</div>
+          <div class="hero-stat-label">Barreaux<br/>Paris · New York</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-hint-line"></div>
+    Défiler
+  </div>
+</section>
+
+<!-- ─── Trust bar ────────────────────────────────────────────────────── -->
+<div class="trust">
+  <div class="container">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Cabinet indépendant
+      </div>
+      <div class="trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+        13 centres financiers mondiaux
+      </div>
+      <div class="trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        22 rue de la Paix, Paris
+      </div>
+      <div class="trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        Barreaux de Paris &amp; New York
+      </div>
+      <div class="trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        Réactivité &amp; Agilité
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── Notre Expertise ───────────────────────────────────────────────── -->
+<section class="section section-cream" id="expertise">
+  <div class="container">
+    <div class="expertise-header">
+      <div>
+        <div class="label">Notre Expertise</div>
+        <h2 class="heading fade-in">Une fiscalité <em>exclusive</em><br/>et complète</h2>
+        <p class="fade-in d1">Sumerson est un cabinet « boutique » haut de gamme délivrant exclusivement une assistance dans le domaine de la fiscalité — tant conseil que contentieux — auprès d'une clientèle française et internationale diversifiée.</p>
+      </div>
+      <div style="text-align:right;" class="fade-in d1">
+        <a href="#contact" class="btn btn-outline-navy">Consulter un expert</a>
+      </div>
+    </div>
+    <div class="expertise-grid">
+      <div class="exp-card fade-in">
+        <div class="exp-num">01</div>
+        <div class="exp-subtitle">Fiscalité des entreprises</div>
+        <h3 class="exp-title">Corporate Tax</h3>
+        <ul class="exp-list">
+          <li>Opérations de M&amp;A (croissance externe, cessions, LBOs)</li>
+          <li>Structuration de groupes internationaux</li>
+          <li>Stratégie et gestion fiscale internationale</li>
+          <li>Réorganisations (fusions, apports partiels, scissions)</li>
+          <li>Rémunération des dirigeants</li>
+          <li>Procédures de contrôle fiscal et contentieux</li>
+          <li>Mise en place de politiques de prix de transfert</li>
+        </ul>
+      </div>
+      <div class="exp-card fade-in d1">
+        <div class="exp-num">02</div>
+        <div class="exp-subtitle">Fiscalité financière</div>
+        <h3 class="exp-title">Financial Tax</h3>
+        <ul class="exp-list">
+          <li>Structuration de fonds d'investissement</li>
+          <li>Mise en place des équipes de gestion (carried interests, véhicules)</li>
+          <li>Fiscalité des produits financiers</li>
+          <li>Assistance dans les opérations de financement</li>
+        </ul>
+      </div>
+      <div class="exp-card fade-in d2">
+        <div class="exp-num">03</div>
+        <div class="exp-subtitle">Fiscalité immobilière</div>
+        <h3 class="exp-title">Real Estate Tax</h3>
+        <ul class="exp-list">
+          <li>Structuration d'acquisitions immobilières</li>
+          <li>Assistance déclarative (taxe de 3%, déclarations fiducies)</li>
+          <li>Fiscalité des acquisitions, cessions et rénovations</li>
+          <li>Fiscalité des véhicules d'investissement immobilier</li>
+          <li>Fiscalité locale et urbanisme fiscal</li>
+        </ul>
+      </div>
+      <div class="exp-card fade-in">
+        <div class="exp-num">04</div>
+        <div class="exp-subtitle">Fiscalité des particuliers</div>
+        <h3 class="exp-title">Individual Tax</h3>
+        <ul class="exp-list">
+          <li>Assistance à l'expatriation et au rapatriement</li>
+          <li>Structuration patrimoniale et financière</li>
+          <li>Transmission de patrimoine (donations, successions internationales)</li>
+          <li>Procédures de contrôle fiscal et contentieux</li>
+          <li>Assistance déclarative ponctuelle</li>
+        </ul>
+      </div>
+      <div class="exp-card fade-in d1">
+        <div class="exp-num">05</div>
+        <div class="exp-subtitle">Secteur minier &amp; énergies</div>
+        <h3 class="exp-title">Resources &amp; Energy Tax</h3>
+        <ul class="exp-list">
+          <li>Structuration de projets d'exploration et d'exploitation</li>
+          <li>Aspects fiscaux des contrats internationaux (mining, oil &amp; gas)</li>
+          <li>Fiscalité des ressources naturelles</li>
+          <li>Conventions fiscales applicables au secteur</li>
+        </ul>
+      </div>
+      <div class="exp-card fade-in d2" style="border-color:rgba(184,137,42,0.25);">
+        <div class="exp-num" style="color:rgba(184,137,42,.2);">+</div>
+        <div class="exp-subtitle">Approche transversale</div>
+        <h3 class="exp-title" style="color:var(--white);">Expertise internationale</h3>
+        <p style="font-size:14px;color:rgba(255,255,255,.6);line-height:1.8;margin-top:8px;">Nos associés ont tous exercé dans de grands cabinets spécialisés en M&amp;A et droit des sociétés, leur permettant de travailler en synergie avec les praticiens du corporate, de l'immobilier et de l'asset management.</p>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;margin-top:24px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold);">Nous contacter →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Nicolas Duboille ──────────────────────────────────────────────── -->
+<section class="section" id="nicolas">
+  <div class="container">
+    <div style="margin-bottom:56px;">
+      <div class="label fade-in">Associé Fondateur</div>
+      <h2 class="heading fade-in d1">Nicolas <em>Duboille</em></h2>
+    </div>
+    <!-- ── Rangée 1 : Photo | Nom + Bio ── -->
+    <div class="nicolas-top">
+      <div class="nicolas-photo fade-in">
+        <img src="Photos/Nicolas.jpeg" alt="Nicolas Duboille" />
+      </div>
+      <div class="nicolas-info fade-in d1">
+        <h3 class="nicolas-name">Nicolas Duboille</h3>
+        <p class="nicolas-role">Associé Fondateur · Avocat Fiscaliste</p>
+        <div class="nicolas-bars">
+          <span class="bar-badge">Barreau de Paris (1999)</span>
+          <span class="bar-badge">New York State Bar (2006)</span>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <a href="https://www.linkedin.com/company/sumerson" target="_blank" class="nc-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:n.duboille@sumerson.com" class="nc-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            n.duboille@sumerson.com
+          </a>
+          <a href="tel:+33611200268" class="nc-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.12 1.18 2 2 0 012.11.12h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.15 6.15l1.21-1.21a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +33 6 11 20 02 68
+          </a>
+        </div>
+        <p>Spécialiste reconnu en fiscalité internationale avec plus de <strong>20 ans de pratique</strong>, Nicolas Duboille intervient pour le compte de grands groupes, ETI et familles d'entrepreneurs sur l'ensemble de leurs enjeux fiscaux transfrontaliers. Il a fondé Sumerson avec des collègues de son équipe chez Simmons &amp; Simmons.</p>
+        <p>Son expertise couvre la <strong>fiscalité internationale</strong>, la fiscalité des fonds d'investissement et de l'asset management, la fiscalité immobilière et la fiscalité du secteur des ressources naturelles.</p>
+      </div>
+    </div>
+
+    <!-- ── Rangée 2 : Références prestige pleine largeur ── -->
+    <div class="nicolas-prestige fade-in d1">
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Formation</span>
+        <span class="prestige-ref-name">Harvard Kennedy School</span>
+        <span class="prestige-ref-detail">Comparative Tax &amp; Administration</span>
+      </div>
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Formation</span>
+        <span class="prestige-ref-name">NYU School of Law</span>
+        <span class="prestige-ref-detail">LLM — International Taxation</span>
+      </div>
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Enseignement</span>
+        <span class="prestige-ref-name">ESCP Europe</span>
+        <span class="prestige-ref-detail">Professeur de fiscalité internationale</span>
+      </div>
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Expérience</span>
+        <span class="prestige-ref-name">Simmons &amp; Simmons</span>
+        <span class="prestige-ref-detail">Associé — Head of Tax Paris</span>
+      </div>
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Expérience</span>
+        <span class="prestige-ref-name">Jones Day</span>
+        <span class="prestige-ref-detail">Avocat fiscaliste international</span>
+      </div>
+      <div class="prestige-ref">
+        <span class="prestige-ref-category">Barreaux</span>
+        <span class="prestige-ref-name">Paris · New York</span>
+        <span class="prestige-ref-detail">Admis depuis 1999 &amp; 2006</span>
+      </div>
+    </div>
+
+    <!-- ── Rangée 3 : Parcours | Formation + Activités ── -->
+    <div class="nicolas-footer fade-in d2">
+      <div>
+        <div class="bio-section">
+          <div class="bio-section-title">Parcours professionnel</div>
+          <div class="bio-timeline">
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Sumerson — Associé Fondateur</span><span class="bio-step-detail">Fondation en 2019 avec l'équipe de Simmons &amp; Simmons</span></div></div>
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Simmons &amp; Simmons — Associé, Head of Tax</span><span class="bio-step-detail">Responsable du département fiscal Paris</span></div></div>
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Granrut — Associé (7 ans)</span><span class="bio-step-detail">Responsable de la pratique fiscale</span></div></div>
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Latournerie Wolfrom</span><span class="bio-step-detail">Création et direction de la pratique fiscale</span></div></div>
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Jones Day</span><span class="bio-step-detail">Avocat fiscaliste</span></div></div>
+            <div class="bio-step"><div class="bio-step-dot"></div><div class="bio-step-line"><span class="bio-step-firm">Deloitte &amp; Touche JF</span><span class="bio-step-detail">Début de carrière</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="bio-section nicolas-formation">
+        <div class="bio-section-title">Formation</div>
+        <div class="edu-grid" style="grid-template-columns:1fr;">
+          <div class="edu-item"><div class="edu-item-school">Harvard Kennedy School</div><div class="edu-item-degree">Comparative Tax &amp; Administration Program</div></div>
+          <div class="edu-item"><div class="edu-item-school">NYU School of Law</div><div class="edu-item-degree">LLM in International Taxation</div></div>
+          <div class="edu-item"><div class="edu-item-school">Université Paris II</div><div class="edu-item-degree">DESS Droit des affaires · DEA Finances publiques</div></div>
+          <div class="edu-item"><div class="edu-item-school">EFB Paris · IGPDE</div><div class="edu-item-degree">Formation au Barreau de Paris</div></div>
+        </div>
+      </div>
+      <div class="bio-section nicolas-activites">
+        <div class="bio-section-title">Enseignement &amp; Activités</div>
+        <div class="teaching-item">Professeur de fiscalité des sociétés et fiscalité internationale — ESCP Europe</div>
+        <div class="teaching-item">Membre IFA (International Fiscal Association)</div>
+        <div class="teaching-item">Membre IACF (Institut des Avocats Conseils Fiscaux)</div>
+        <div class="teaching-item">Membre AIJA (Association Internationale des Jeunes Avocats)</div>
+        <div class="teaching-item">Membre GEO (Global Equity Organization)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Le Cabinet ───────────────────────────────────────────────────── -->
+<section class="section" id="cabinet">
+  <div class="container">
+    <div class="cabinet-grid">
+      <div class="cabinet-visual fade-in">
+        <div class="cabinet-img-wrap" style="background:#0B1C35;">
+          <img src="Photos/Site.png" alt="Sumerson — 22 rue de la Paix, Paris" style="width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0;" />
+          <div class="cabinet-img-overlay"></div>
+          <div class="cabinet-img-caption">
+            <h3>Cabinet boutique</h3>
+            <p>Fondé en 2019 · Paris</p>
+          </div>
+        </div>
+        <div class="accent-badge">
+          <div class="accent-badge-main">Fiscalité<br/>exclusive</div>
+          <div class="accent-badge-sub">Boutique<br/>haut de gamme</div>
+        </div>
+      </div>
+      <div class="cabinet-text">
+        <div class="label fade-in">Le Cabinet</div>
+        <h2 class="heading fade-in d1">Fiabilité, Agilité,<br/><em>Réactivité</em> &amp; Culture<br/>Internationale</h2>
+        <p class="fade-in d2">
+          Sumerson est un cabinet d'avocats fiscalistes alliant la culture des grands cabinets à l'agilité d'une structure indépendante. Fondé en 2019, le cabinet délivre <strong>exclusivement</strong> une assistance dans le domaine de la fiscalité — tant nationale qu'internationale.
+        </p>
+        <div class="mob-collapse">
+          <p class="fade-in d2">
+            Véritable alternative aux grands cabinets multi-services et aux cabinets d'expertise comptable, Sumerson offre une expertise reconnue et des prestations de haut niveau, avec une approche véritablement personnalisée. Tous nos avocats ont exercé dans de grands cabinets français et anglo-saxons et disposent d'une expérience internationale.
+          </p>
+          <div class="highlight-box fade-in d2">
+            <p>« Cabinet boutique : nos avocats fiscalistes restent accessibles, à l'écoute et réactifs pour leurs clients. »</p>
+          </div>
+          <div class="values-grid fade-in d3">
+            <div class="value-item"><div class="value-dot"></div>Culture internationale</div>
+            <div class="value-item"><div class="value-dot"></div>Indépendance totale</div>
+            <div class="value-item"><div class="value-dot"></div>Réactivité immédiate</div>
+            <div class="value-item"><div class="value-dot"></div>Esprit entrepreneurial</div>
+            <div class="value-item"><div class="value-dot"></div>Agilité structurelle</div>
+            <div class="value-item"><div class="value-dot"></div>Fiabilité absolue</div>
+          </div>
+        </div>
+        <button class="mob-expand-btn" onclick="mobToggle(this)" data-closed="+ Nos valeurs &amp; engagements">+ Nos valeurs &amp; engagements</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Pourquoi Sumerson ─────────────────────────────────────────────── -->
+<section class="section section-cream" id="pourquoi">
+  <div class="container">
+    <div style="text-align:center;max-width:680px;margin:0 auto 0;">
+      <div class="label" style="justify-content:center;">Pourquoi Sumerson</div>
+      <h2 class="heading fade-in">Des avocats <em>passionnés</em><br/>par le droit fiscal</h2>
+      <p style="font-size:15px;color:var(--text-2);margin-top:18px;" class="fade-in d1">
+        Sumerson, c'est une conviction : mettre l'excellence technique au service de solutions <strong>vraiment opérationnelles</strong>. Nos avocats sont libres, investis, et pensent hors des sentiers battus.
+      </p>
+    </div>
+    <div class="pourquoi-grid">
+      <div class="pourquoi-card fade-in">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Indépendance &amp; Qualité</h3>
+        <p class="pourquoi-body">Nos avocats sont libres, non contraints d'accumuler des heures facturables pour leur avancement interne. Cette indépendance est un <strong>gage de qualité</strong> : ils prennent le temps d'écouter, de comprendre votre situation et votre modèle économique.</p>
+      </div>
+      <div class="pourquoi-card fade-in d1">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Solutions pragmatiques</h3>
+        <p class="pourquoi-body">Nous comprenons, analysons et examinons les mécanismes réglementaires et juridico-financiers pour défendre vos intérêts. Nous développons des solutions <strong>véritablement opérationnelles</strong>, en remettant en cause les dogmes établis.</p>
+      </div>
+      <div class="pourquoi-card fade-in d2">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Clarté du langage fiscal</h3>
+        <p class="pourquoi-body">Nous nous engageons à rendre le « langage fiscal » aussi clair que possible, afin que nos clients comprennent parfaitement les enjeux, les règles applicables, les contraintes et les opportunités.</p>
+      </div>
+      <div class="pourquoi-card fade-in">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Dimension sur-mesure</h3>
+        <p class="pourquoi-body">La dimension personnalisée de nos prestations est le reflet de notre liberté d'organisation et de notre véritable engagement vers la qualité — pas un simple argument marketing. Nous traitons vos dossiers avec un investissement maximal.</p>
+      </div>
+      <div class="pourquoi-card fade-in d1">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Accessibilité &amp; Réactivité</h3>
+        <p class="pourquoi-body">En cabinet boutique, vous avez en face de vous un avocat directement accessible, à l'écoute et réactif. Pas d'intermédiaire, pas de délégation opaque — l'expert qui connaît votre dossier dans ses moindres détails.</p>
+      </div>
+      <div class="pourquoi-card fade-in d2">
+        <div class="pourquoi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 class="pourquoi-title">Hors des sentiers battus</h3>
+        <p class="pourquoi-body">Nos avocats ne sont <strong>pas formatés</strong> et peuvent penser différemment. Ils remettent en cause les dogmes en examinant l'origine des textes et développent des approches innovantes pour défendre vos intérêts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Sumerson à l'International ──────────────────────────────────────── -->
+<section class="section section-navy" id="international">
+  <div class="container">
+    <div class="international-grid">
+      <div class="intl-text">
+        <div class="label label-light fade-in">Sumerson à l'International</div>
+        <h2 class="heading heading-white fade-in d1">Un réseau mondial<br/>de <em>correspondants</em><br/>d'excellence</h2>
+        <div class="intl-quote fade-in d2">
+          <p>« Cabinet de culture internationale, Sumerson dispose de correspondants dans les principaux centres d'affaires à travers le monde. »</p>
+        </div>
+        <div class="mob-collapse">
+          <p class="fade-in d2">Sumerson a été fondé par des spécialistes du droit fiscal qui ont constitué le département fiscal du bureau parisien d'un cabinet international basé à Londres. Le cabinet opère de façon indépendante et agile, sélectionnant ses partenaires internationaux de manière stratégique.</p>
+          <p class="fade-in d2">Notre réseau est composé de relations informelles avec des avocats fiscalistes de premier plan dans le monde entier. Nous travaillons avec plusieurs cabinets par pays, afin de mettre en relation les besoins de nos clients avec les compétences les plus adaptées.</p>
+        </div>
+        <button class="mob-expand-btn" onclick="mobToggle(this)" data-closed="+ Notre réseau mondial">+ Notre réseau mondial</button>
+      </div>
+      <div class="world-visual fade-in d1">
+        <div class="world-map-title">Présence internationale · 14 centres</div>
+        <!-- Grille des villes par région -->
+        <div class="map-regions">
+          <div class="map-region">
+            <div class="map-region-title">Europe</div>
+            <div class="map-region-cities">
+              <span class="map-region-city hq">Paris — Siège</span>
+              <span class="map-region-city">Londres</span>
+              <span class="map-region-city">Madrid</span>
+              <span class="map-region-city">Genève</span>
+              <span class="map-region-city">Milan</span>
+              <span class="map-region-city">Francfort</span>
+              <span class="map-region-city">Moscou</span>
+            </div>
+          </div>
+          <div class="map-region">
+            <div class="map-region-title">Amériques</div>
+            <div class="map-region-cities">
+              <span class="map-region-city">New York</span>
+              <span class="map-region-city">São Paulo</span>
+            </div>
+          </div>
+          <div class="map-region">
+            <div class="map-region-title">Afrique &amp; M.-Orient</div>
+            <div class="map-region-cities">
+              <span class="map-region-city">Casablanca</span>
+              <span class="map-region-city">Dubaï</span>
+            </div>
+          </div>
+          <div class="map-region">
+            <div class="map-region-title">Asie-Pacifique</div>
+            <div class="map-region-cities">
+              <span class="map-region-city">Singapour</span>
+              <span class="map-region-city">Hong Kong</span>
+              <span class="map-region-city">Shanghai</span>
+            </div>
+          </div>
+        </div>
+        <div class="affiliations" style="margin-top:20px;">
+          <div class="affiliations-title">Associations professionnelles</div>
+          <div class="affil-list">
+            <span class="affil-badge">IFA</span>
+            <span class="affil-badge">AIJA</span>
+            <span class="affil-badge">GEO</span>
+            <span class="affil-badge">ABA</span>
+            <span class="affil-badge">IACF</span>
+          </div>
+        </div>
+        <!-- Origine du nom — sous les associations -->
+        <div class="origin-intl fade-in d2">
+          <div class="label label-light">Origine du nom</div>
+          <div class="origin-inner" style="margin-top:20px;">
+            <div class="origin-letter">𒀭</div>
+            <div class="origin-text">
+              <h3>L'origine du nom Sumerson</h3>
+              <p>Le nom « Sumerson » est une référence aux premières lois fiscales connues de l'humanité, rédigées par les Sumériens sur des pierres — les <em>sumerstones</em>. Ce clin d'œil historique illustre notre conviction que la fiscalité est fondatrice de toute organisation économique et sociale, et mérite une expertise dédiée et passionnée.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ─── Actualités ────────────────────────────────────────────────────── -->
+<section class="section section-cream" id="actualites">
+  <div class="container">
+    <div class="news-header">
+      <div>
+        <div class="label">Actualités</div>
+        <h2 class="heading fade-in">Veille fiscale<br/><em>internationale</em></h2>
+      </div>
+      <a href="#contact" class="btn btn-outline-navy fade-in d1">Toutes les actualités</a>
+    </div>
+    <div class="news-grid">
+      <div class="news-card fade-in">
+        <div class="news-card-top">
+          <div class="news-card-top-icon">§</div>
+          <span class="news-tag">Management Package</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">23 Juillet 2021</div>
+          <h3 class="news-title">Management package : imposition des gains dans la catégorie des traitements et salaires</h3>
+          <p class="news-excerpt">Analyse de l'imposition des gains issus des management packages dans la catégorie des traitements et salaires — enjeux pour les dirigeants et les structurations d'acquisition.</p>
+          <div class="news-authors">Nicolas Duboille</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/07/23/management-package/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+      <div class="news-card fade-in d1">
+        <div class="news-card-top">
+          <div class="news-card-top-icon">✈</div>
+          <span class="news-tag">Mobilité</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">2 Avril 2021</div>
+          <h3 class="news-title">Régime fiscal des impatriés : une bouffée d'oxygène fiscal sous contrôle</h3>
+          <p class="news-excerpt">Décryptage du régime fiscal avantageux pour les impatriés et ses conditions d'application dans un contexte post-pandémie.</p>
+          <div class="news-authors">N. Duboille · A. Dal Ponte</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/04/02/global-mobility/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+      <div class="news-card fade-in d2">
+        <div class="news-card-top">
+          <div class="news-card-top-icon">⚖</div>
+          <span class="news-tag">Jurisprudence</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">4 Février 2021</div>
+          <h3 class="news-title">Deux arrêts réduisent le champ d'application de l'imposition des plus-values</h3>
+          <p class="news-excerpt">Analyse de deux décisions de justice limitant le champ de l'imposition des plus-values en rapport avec des participations françaises.</p>
+          <div class="news-authors">N. Duboille · A. Dal Ponte</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/02/04/3279/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+      <div class="news-card fade-in">
+        <div class="news-card-top" style="height:160px;">
+          <div class="news-card-top-icon">🏢</div>
+          <span class="news-tag">Établissement stable</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">4 Février 2021</div>
+          <h3 class="news-title">Caractérisation d'un établissement stable</h3>
+          <p class="news-excerpt">Examen du test de l'agent dépendant pour la caractérisation d'un établissement stable dans l'économie numérique.</p>
+          <div class="news-authors">Nicolas Duboille</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/02/04/3293/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+      <div class="news-card fade-in d1">
+        <div class="news-card-top" style="height:160px;">
+          <div class="news-card-top-icon">€</div>
+          <span class="news-tag">Financement</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">8 Février 2021</div>
+          <h3 class="news-title">Taux d'intérêt des emprunts auprès d'entreprises liées</h3>
+          <p class="news-excerpt">Commentaire des précisions de l'administration fiscale sur les taux d'intérêt admis pour les prêts intra-groupe.</p>
+          <div class="news-authors">Nicolas Duboille</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/02/08/taux-dinteret-des-emprunts-aupres-dentreprises-liees/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+      <div class="news-card fade-in d2">
+        <div class="news-card-top" style="height:160px;">
+          <div class="news-card-top-icon">📋</div>
+          <span class="news-tag">Sécurité sociale</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">10 Mars 2021</div>
+          <h3 class="news-title">Nouveau Bulletin Officiel de la Sécurité Sociale</h3>
+          <p class="news-excerpt">Analyse du nouveau bulletin officiel de la sécurité sociale émis par la direction de la sécurité sociale et l'URSSAF.</p>
+          <div class="news-authors">Nicolas Duboille</div>
+          <a class="news-read" href="https://sumerson.com/index.php/2021/03/10/un-bulletin-officiel-de-la-securite-sociale-est-en-ligne/" target="_blank" rel="noopener">Lire l'article</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Recrutement ───────────────────────────────────────────────────── -->
+<section class="section section-navy" id="recrutement">
+  <div class="container">
+    <div class="recrutement-grid">
+      <div class="recrutement-text">
+        <div class="label label-light fade-in">Recrutement</div>
+        <h2 class="heading heading-white fade-in d1">Avocat(e)s et<br/>Stagiaires <em>Fiscalistes</em></h2>
+        <p style="color:rgba(255,255,255,.65);font-size:15px;margin-top:18px;line-height:1.85;" class="fade-in d2">Sumerson procède à des recrutements réguliers et recherche en permanence de nouveaux talents. Nous faisons notre maximum pour intégrer nos stagiaires et collaborateurs dans les dossiers, et nous attachons à transmettre nos compétences et expertises comme nous avons nous-mêmes été formés par nos pairs.</p>
+        <div class="mob-collapse">
+        <div class="recrutement-pillars fade-in d2">
+          <div class="recrutement-pillar">
+            <div class="recrutement-pillar-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <div class="recrutement-pillar-title">Politique de recrutement stricte</div>
+              <div class="recrutement-pillar-body">Nos collaborateurs doivent être rigoureux, dynamiques et capables de travailler en équipe. Les entretiens techniques se déroulent en français et en anglais.</div>
+            </div>
+          </div>
+          <div class="recrutement-pillar">
+            <div class="recrutement-pillar-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+            </div>
+            <div>
+              <div class="recrutement-pillar-title">Détachements à l'étranger</div>
+              <div class="recrutement-pillar-body">Nous offrons à nos collaborateurs la possibilité de partir en détachement auprès de nos cabinets partenaires à l'étranger, notamment à <strong>New York</strong> et à <strong>Singapour</strong>.</div>
+            </div>
+          </div>
+          <div class="recrutement-pillar">
+            <div class="recrutement-pillar-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <div>
+              <div class="recrutement-pillar-title">Rémunération de marché</div>
+              <div class="recrutement-pillar-body">La rémunération des stagiaires et des collaborateurs est alignée sur celle des cabinets d'avocats les plus réputés.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <button class="mob-expand-btn" onclick="mobToggle(this)" data-closed="+ Notre approche RH">+ Notre approche RH</button>
+      </div>
+      <div class="fade-in d2">
+        <div class="recrutement-cta-card">
+          <h3 class="recrutement-cta-title">Rejoindre Sumerson</h3>
+          <p class="recrutement-cta-sub">Vous souhaitez intégrer un cabinet boutique d'excellence, avec une vraie culture internationale et des dossiers stimulants ?</p>
+          <div class="recrutement-tags">
+            <span class="recrutement-tag">Collaboration</span>
+            <span class="recrutement-tag">Stage</span>
+            <span class="recrutement-tag">Paris</span>
+            <span class="recrutement-tag">International</span>
+          </div>
+          <p class="recrutement-cta-detail">Pour toute demande de recrutement (collaboration ou stage), merci d'adresser votre candidature — CV et lettre de motivation — à notre adresse email dédiée.</p>
+          <a href="mailto:contact@sumerson.com?subject=Candidature" class="btn btn-gold" style="width:100%;justify-content:center;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            contact@sumerson.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Contact ───────────────────────────────────────────────────────── -->
+<section class="section section-navy" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-text">
+        <div class="label label-light fade-in">Contact</div>
+        <h2 class="heading heading-white fade-in d1">Parlons de<br/>votre <em>situation</em></h2>
+        <p class="fade-in d2">Chaque situation fiscale est unique. Prenez contact pour un premier échange confidentiel avec notre équipe. Nous répondons sous 24h.</p>
+        <div class="contact-details fade-in d2">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Adresse</div>
+              <div class="contact-item-value">22 rue de la Paix, 75002 Paris</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.12 1.18 2 2 0 012.11.12h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.15 6.15l1.21-1.21a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Téléphone cabinet</div>
+              <div class="contact-item-value">+33 1 89 16 47 90</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">contact@sumerson.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A67830" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">LinkedIn</div>
+              <div class="contact-item-value">linkedin.com/company/sumerson</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form fade-in d1">
+        <h3 class="form-title">Premier contact</h3>
+        <p class="form-subtitle">Réponse sous 24h — Confidentialité garantie</p>
+        <form onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Prénom</label>
+              <input type="text" placeholder="Jean" />
+            </div>
+            <div class="form-group">
+              <label>Nom</label>
+              <input type="text" placeholder="Dupont" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email professionnel</label>
+            <input type="email" placeholder="j.dupont@entreprise.com" />
+          </div>
+          <div class="form-group">
+            <label>Société / Organisation</label>
+            <input type="text" placeholder="Nom de votre entreprise" />
+          </div>
+          <div class="form-group">
+            <label>Domaine de la demande</label>
+            <select>
+              <option value="">Sélectionnez un domaine</option>
+              <option>Fiscalité des entreprises (M&amp;A, restructuring)</option>
+              <option>Prix de transfert</option>
+              <option>Fiscalité financière (fonds, carried interests)</option>
+              <option>Fiscalité immobilière</option>
+              <option>Fiscalité des particuliers / expatriés</option>
+              <option>Secteur minier &amp; ressources naturelles</option>
+              <option>Contentieux fiscal</option>
+              <option>Recrutement</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Décrivez brièvement votre situation…"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Envoyer la demande</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Footer ────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo footer-brand-logo">Sumer<span>son</span></div>
+        <p class="footer-brand-tagline">Cabinet boutique d'avocats fiscalistes, fondé en 2019. Fiscalité internationale &amp; nationale, conseil &amp; contentieux.</p>
+        <p style="font-size:12px;color:rgba(255,255,255,.3);line-height:1.6;">22 rue de la Paix<br/>75002 Paris<br/>+33 1 89 16 47 90</p>
+      </div>
+      <div class="footer-col">
+        <h4>Le Cabinet</h4>
+        <ul>
+          <li><a href="#cabinet">Le Cabinet</a></li>
+          <li><a href="#pourquoi">Pourquoi Sumerson</a></li>
+          <li><a href="#international">Sumerson à l'International</a></li>
+          <li><a href="#nicolas">Nicolas Duboille</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Expertise</h4>
+        <ul>
+          <li><a href="#expertise">Fiscalité des entreprises</a></li>
+          <li><a href="#expertise">Fiscalité financière</a></li>
+          <li><a href="#expertise">Fiscalité immobilière</a></li>
+          <li><a href="#expertise">Fiscalité des particuliers</a></li>
+          <li><a href="#expertise">Secteur minier &amp; énergies</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liens utiles</h4>
+        <ul>
+          <li><a href="#actualites">Actualités</a></li>
+          <li><a href="#recrutement">Recrutement</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Espace Client</a></li>
+          <li><a href="https://www.linkedin.com/company/sumerson" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sumerson. Tous droits réservés. Cabinet d'avocats inscrit au Barreau de Paris.</p>
+      <div class="footer-bottom-links">
+        <a href="#" onclick="return false;">Informations légales</a>
+        <a href="#" onclick="return false;">Politique de confidentialité</a>
+        <a href="#contact">Espace Client</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
