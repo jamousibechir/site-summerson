@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100">
+  <rect width="480" height="100" fill="#04090F"/>
+
+  <!-- MARK : Initiale encadrée
+       Grand S italique entre deux règles dorées — esthétique maison de couture -->
+  <!-- Règle supérieure -->
+  <rect x="0" y="12" width="56" height="1" fill="#B8892A" opacity="0.65"/>
+  <!-- Initiale S -->
+  <text x="28" y="72" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="62" font-weight="700" font-style="italic"
+    fill="#B8892A">S</text>
+  <!-- Règle inférieure -->
+  <rect x="0" y="87" width="56" height="1" fill="#B8892A" opacity="0.65"/>
+
+  <!-- Séparateur -->
+  <rect x="76" y="20" width="1" height="60" fill="#B8892A" opacity="0.2"/>
+
+  <!-- Wordmark -->
+  <text x="92" y="50"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="24" font-weight="700" letter-spacing="6"
+    fill="#F4F2EE">SUMERSON</text>
+  <text x="94" y="67"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="8" font-weight="600" letter-spacing="4"
+    fill="#B8892A">AVOCATS · FISCALISTES</text>
+</svg>

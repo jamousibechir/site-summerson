@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100">
+  <rect width="440" height="100" fill="#04090F"/>
+
+  <!--
+    TROIS COINS CUNÉIFORMES
+    ═══════════════════════
+    Chaque « coin » (wedge) est l'unité de base de l'écriture cunéiforme —
+    la marque du calame pressé dans l'argile par les scribes sumériens
+    qui rédigeaient les premières lois fiscales connues de l'humanité.
+    Trois coups de calame = un signe = une loi.
+  -->
+
+  <!-- Coin 1 — long (ligne supérieure) -->
+  <polygon points="4,14  36,14  48,22  36,30  4,30" fill="#B8892A"/>
+  <!-- Coin 2 — moyen (ligne médiane) -->
+  <polygon points="4,40  26,40  37,47  26,54  4,54" fill="#B8892A"/>
+  <!-- Coin 3 — court (ligne inférieure) -->
+  <polygon points="4,63  18,63  26,68  18,73  4,73" fill="#B8892A"/>
+
+  <!-- Séparateur vertical fin -->
+  <line x1="64" y1="16" x2="64" y2="80"
+    stroke="#B8892A" stroke-width="0.75" opacity="0.28"/>
+
+  <!-- Nom -->
+  <text x="80" y="48"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="23" font-weight="700" letter-spacing="7"
+    fill="#F4F2EE">SUMERSON</text>
+
+  <!-- Filet sous le nom -->
+  <rect x="80" y="55" width="232" height="0.75" fill="#B8892A" opacity="0.38"/>
+
+  <!-- Ligne de métier -->
+  <text x="82" y="68"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="7.5" font-weight="600" letter-spacing="4.5"
+    fill="#B8892A">AVOCATS · FISCALISTES</text>
+</svg>

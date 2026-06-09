@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100">
+  <rect width="440" height="100" fill="#04090F"/>
+
+  <!--
+    LE SIGNE CUNÉIFORME
+    ═══════════════════
+    Le signe sumérien de la « loi » (𒀭) stylisé en trois clous verticaux —
+    la notation cunéiforme du chiffre 3, symbole de complétude
+    dans la numérologie sumérienne (conseil, client, État).
+    Ultra-minimaliste. Chaque clou = un coup de calame vers le bas.
+  -->
+
+  <!-- Trois clous verticaux (cunéiformes descendants) -->
+  <!-- Clou 1 (gauche) -->
+  <polygon points="6,14  16,14  16,17  11,72  8,72  6,17" fill="#B8892A"/>
+  <!-- Clou 2 (centre) -->
+  <polygon points="22,14  32,14  32,17  27,72  24,72  22,17" fill="#B8892A"/>
+  <!-- Clou 3 (droite) -->
+  <polygon points="38,14  48,14  48,17  43,72  40,72  38,17" fill="#B8892A"/>
+
+  <!-- Filet supérieur reliant les trois clous (tête du calame) -->
+  <rect x="4" y="12" width="46" height="2.5" fill="#B8892A" rx="0.5"/>
+
+  <!-- Séparateur -->
+  <line x1="68" y1="16" x2="68" y2="80"
+    stroke="#B8892A" stroke-width="0.75" opacity="0.28"/>
+
+  <!-- Nom -->
+  <text x="84" y="48"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="23" font-weight="700" letter-spacing="7"
+    fill="#F4F2EE">SUMERSON</text>
+
+  <!-- Filet sous le nom -->
+  <rect x="84" y="55" width="232" height="0.75" fill="#B8892A" opacity="0.38"/>
+
+  <!-- Ligne de métier -->
+  <text x="86" y="68"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="7.5" font-weight="600" letter-spacing="4.5"
+    fill="#B8892A">AVOCATS · FISCALISTES</text>
+</svg>

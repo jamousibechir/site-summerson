@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100">
+  <rect width="440" height="100" fill="#04090F"/>
+
+  <!--
+    LA TABLETTE D'ARGILE
+    ═════════════════════
+    La forme même sur laquelle les scribes sumériens gravaient
+    les premières lois fiscales — la « sumerstone ».
+    Un rectangle aux angles biseautés, évoquant une tablette en argile,
+    avec à l'intérieur trois empreintes cunéiformes.
+  -->
+
+  <!-- Contour tablette (biseaux aux 4 coins) -->
+  <path d="M 10,2 L 50,2 L 58,10 L 58,74 L 50,82 L 10,82 L 2,74 L 2,10 Z"
+    fill="none" stroke="#B8892A" stroke-width="1.5"/>
+
+  <!-- Trait intérieur décoratif (cadre renfoncé) -->
+  <path d="M 13,7 L 47,7 L 53,13 L 53,69 L 47,75 L 13,75 L 7,69 L 7,13 Z"
+    fill="none" stroke="#B8892A" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Trois empreintes cunéiformes à l'intérieur de la tablette -->
+  <!-- Coin horizontal 1 -->
+  <polygon points="12,24  38,24  44,30  38,36  12,36" fill="#B8892A"/>
+  <!-- Coin horizontal 2 -->
+  <polygon points="12,42  30,42  35,47  30,52  12,52" fill="#B8892A"/>
+  <!-- Coin horizontal 3 -->
+  <polygon points="12,57  22,57  26,61  22,65  12,65" fill="#B8892A"/>
+
+  <!-- Séparateur -->
+  <line x1="76" y1="14" x2="76" y2="82"
+    stroke="#B8892A" stroke-width="0.75" opacity="0.28"/>
+
+  <!-- Nom -->
+  <text x="92" y="48"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="23" font-weight="700" letter-spacing="7"
+    fill="#F4F2EE">SUMERSON</text>
+
+  <!-- Filet -->
+  <rect x="92" y="55" width="232" height="0.75" fill="#B8892A" opacity="0.38"/>
+
+  <!-- Ligne de métier -->
+  <text x="94" y="68"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="7.5" font-weight="600" letter-spacing="4.5"
+    fill="#B8892A">AVOCATS · FISCALISTES</text>
+</svg>

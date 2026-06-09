@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 110">
+  <rect width="480" height="110" fill="#04090F"/>
+
+  <!-- MARK : Sceau hexagonal
+       Hexagone à pointe haute — centre (46,55) rayon 44 -->
+  <!-- Hexagone extérieur -->
+  <polygon
+    points="46,11 84.1,33 84.1,77 46,99 7.9,77 7.9,33"
+    fill="none" stroke="#B8892A" stroke-width="1.5"/>
+  <!-- Hexagone intérieur (décor) -->
+  <polygon
+    points="46,18 77.6,36.5 77.6,73.5 46,92 14.4,73.5 14.4,36.5"
+    fill="none" stroke="#B8892A" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Monogramme S -->
+  <text x="46" y="72" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52" font-weight="700" font-style="italic"
+    fill="#B8892A">S</text>
+
+  <!-- Séparateur -->
+  <rect x="106" y="24" width="1" height="62" fill="#B8892A" opacity="0.2"/>
+
+  <!-- Wordmark -->
+  <text x="122" y="54"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="24" font-weight="700" letter-spacing="6"
+    fill="#F4F2EE">SUMERSON</text>
+  <text x="124" y="71"
+    font-family="'Helvetica Neue', Arial, sans-serif"
+    font-size="8" font-weight="600" letter-spacing="4"
+    fill="#B8892A">AVOCATS · FISCALISTES</text>
+</svg>
