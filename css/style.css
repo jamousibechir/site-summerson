@@ -269,8 +269,22 @@ a { text-decoration: none; color: inherit; }
 
 /* ─── Nicolas — layout 3 rangées ─────────────────────────────── */
 .nicolas-top { display:grid; grid-template-columns:320px 1fr; gap:60px; align-items:start; margin-bottom:44px; }
-.nicolas-photo { border-radius:14px; overflow:hidden; background:var(--navy-mid); }
+.nicolas-photo { border-radius:14px; overflow:hidden; background:var(--navy-mid); position:relative; }
 .nicolas-photo img { width:100%; height:460px; object-fit:cover; object-position:center top; display:block; }
+/* Badge nom flottant en bas de la photo (mobile uniquement — caché sur desktop) */
+.nicolas-photo-badge {
+  display:none;
+  position:absolute; bottom:0; left:0; right:0;
+  padding:18px 20px 16px;
+  background:linear-gradient(to top, rgba(4,9,15,0.95) 0%, rgba(4,9,15,0.75) 60%, transparent 100%);
+}
+.nicolas-photo-badge-name {
+  font-family:'Playfair Display',serif; font-size:17px; font-weight:600;
+  color:var(--white); line-height:1.2; margin-bottom:3px;
+}
+.nicolas-photo-badge-role {
+  font-size:9px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gold);
+}
 .nicolas-info { padding-top:6px; }
 .nicolas-name { font-family:'Playfair Display',serif; font-size:28px; font-weight:600; color:var(--white); margin-bottom:6px; }
 .nicolas-role { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; }
@@ -494,7 +508,12 @@ a { text-decoration: none; color: inherit; }
   .prestige-ref-name { font-size:12px; }
   .prestige-ref-detail { font-size:10px; }
   .nicolas-top { grid-template-columns:1fr; gap:24px; }
-  .nicolas-photo img { height:280px; }
+  .nicolas-photo {
+    border:2px solid rgba(184,137,42,0.55);
+    box-shadow: 0 0 0 5px rgba(184,137,42,0.08), 0 16px 48px rgba(0,0,0,0.65);
+  }
+  .nicolas-photo img { width:100%; height:auto; object-fit:unset; }
+  .nicolas-photo-badge { display:block; }
   .nicolas-footer { grid-template-columns:1fr; gap:24px; }
   .nicolas-footer .nicolas-formation, .nicolas-footer .nicolas-activites { margin-bottom:0; }
   .nicolas-name { font-size:20px; }
@@ -553,7 +572,7 @@ a { text-decoration: none; color: inherit; }
   .pourquoi-grid { gap:8px; }
   .exp-card, .pourquoi-card { padding:16px 14px; }
   .exp-num { font-size:28px; }
-  .nicolas-photo img { height:220px; }
+  .nicolas-photo img { width:100%; height:auto; object-fit:unset; }
   .nicolas-prestige { grid-template-columns:1fr 1fr; }
   .news-grid { gap:8px; }
   .news-body { padding:12px; }
